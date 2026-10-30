@@ -1,0 +1,26 @@
+{
+  "account": "你的学号",
+  "password": "你的密码",
+  "isp": "telecom",
+  "isp_suffix": {
+    "local": "@gxylocal",
+    "mobile": "@gxyyd",
+    "unicom": "@gxylt",
+    "telecom": "@gxydx"
+  },
+  "wait_seconds": 5,
+  "retries": 3,
+  "retry_delay_seconds": 3,
+  "timeout_seconds": 10,
+  "check_interval_seconds": 3,
+  "periodic_check_seconds": 300,
+  "portal_fallback_url": "http://211.69.15.10:6060/portalReceiveAction.do?wlanuserip=10.50.127.137&wlanacname=HAIT-SR8808",
+  "detection_urls": [
+    { "url": "http://www.msftconnecttest.com/connecttest.txt", "expect": "Microsoft Connect Test" },
+    { "url": "http://connect.rom.miui.com/generate_204", "expect_status": 204 },
+    { "url": "http://captive.apple.com/hotspot-detect.html", "expect": "Success" }
+  ],
+  "form_extra_fields": {},
+  "success_keywords": ["认证成功", "登录成功", "success", "成功"],
+  "debug": true
+}
