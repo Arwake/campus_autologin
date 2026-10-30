@@ -1,7 +1,7 @@
 {
   "account": "你的学号",
   "password": "你的密码",
-  "isp": "telecom",
+  "isp": "校园网的运营商",
   "isp_suffix": {
     "local": "@gxylocal",
     "mobile": "@gxyyd",
