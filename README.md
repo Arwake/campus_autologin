@@ -27,7 +27,7 @@
 ## 快速开始
 
 1. 下载仓库的所有文件
-2. 用记事本打开 `config.json`，填写 `account`（学号）、 `password`和`isp_suffix`（运营商）
+2. 用记事本打开 `config.json`，填写 `account`（学号）、 `password`和`isp`（运营商）
 3. 连上校园网 WiFi
 4. 双击 `立即登录.bat` 手动跑一次，或双击 `启动后台监控.vbs` 让它常驻后台自动认证
 
