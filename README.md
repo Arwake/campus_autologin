@@ -124,6 +124,7 @@ powershell -ExecutionPolicy Bypass -File autologin.ps1 -Mode once -ConfigPath te
 ## 免责声明
 
 本工具仅供学习交流使用，请遵守所在学校的网络使用规定。因使用本工具造成的一切后果由使用者自行承担。
+部分内容由AI生成。
 
 ## License
 
